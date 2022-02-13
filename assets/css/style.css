@@ -65,6 +65,16 @@ font-weight: 400, 500, 600, 800
   padding: 13px;
 }
 
+/* product */
+
+.product {
+  background-color: #f9f2ff;
+  padding: 0px;
+  max-width: 390px;
+}
+
+
+
 /* image with text */
 
 .text-on-image {
