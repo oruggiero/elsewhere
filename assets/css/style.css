@@ -73,7 +73,23 @@ font-weight: 400, 500, 600, 800
   max-width: 390px;
 }
 
+.big-purple-text {
+  color: #5d00ba;
+  font-family: 'Jost', sans-serif;
+  font-weight: 600;
+  font-size: 72;
+  text-align: left;
+  padding-left: 5px;
+}
 
+.trip-detail-text {
+  color: black;
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  font-size: 36;
+  text-align: left;
+  padding-left: 5px;
+}
 
 /* image with text */
 
@@ -99,6 +115,10 @@ font-weight: 400, 500, 600, 800
   position: absolute;
   top: 0px;
   left: 5px;
+}
+
+.destination-img {
+  max-width: 390px;
 }
 
 /* desktop */
