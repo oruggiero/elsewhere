@@ -21,7 +21,7 @@ font-weight: 400, 500, 600, 800
   color: white;
   font-family: 'Jost', sans-serif;
   font-weight: 800;
-  font-size: 64;
+  font-size: 64px;
   text-align: center;
 }
 
@@ -31,7 +31,7 @@ font-weight: 400, 500, 600, 800
   color: #5d00ba;
   font-family: 'Jost', sans-serif;
   font-weight: 800;
-  font-size: 64;
+  font-size: 24px;
   text-align: center;
 }
 
@@ -60,7 +60,7 @@ font-weight: 400, 500, 600, 800
   color: #5d00ba;
   font-family: 'Jost', sans-serif;
   font-weight: 500;
-  font-size: 24;
+  font-size: 24px;
   text-align: center;
   padding: 13px;
 }
@@ -77,7 +77,7 @@ font-weight: 400, 500, 600, 800
   color: #5d00ba;
   font-family: 'Jost', sans-serif;
   font-weight: 600;
-  font-size: 72;
+  font-size: 36px;
   text-align: left;
   padding-left: 5px;
 }
@@ -86,7 +86,7 @@ font-weight: 400, 500, 600, 800
   color: black;
   font-family: 'Jost', sans-serif;
   font-weight: 400;
-  font-size: 36;
+  font-size: 18px;
   text-align: left;
   padding-left: 5px;
 }
@@ -133,16 +133,36 @@ font-weight: 400, 500, 600, 800
     max-width: 756px;
   }
 
+  .product {
+    max-width: 756px;
+  }
+
   .feat-image {
     max-width: 756px;
   }
 
+  .destination-img {
+    max-width: 756px;
+  }
+
   .big-white-text {
-    font-size: 72;
+    font-size: 72px;
   }
 
   .mid-purp-text {
-    font-size: 48;
+    font-size: 48px;
+  }
+
+  .big-purple-text {
+    font-size: 72px;
+  }
+
+  .trip-detail-text {
+    font-size: 36px;
+  }
+
+  .text-on-image {
+    font-size: 84px;
   }
 
   .site-top {
@@ -158,5 +178,25 @@ font-weight: 400, 500, 600, 800
   .tagline {
     text-align: left;
     margin-left: 37px;
+  }
+
+  .product:nth-child(4) {
+    background-color: #ffffff;
+  }
+
+  .product:nth-child(8) {
+    background-color: #ffffff;
+  }
+
+  .product:nth-child(12) {
+    background-color: #ffffff;
+  }
+
+  .product:nth-child(16) {
+    background-color: #ffffff;
+  }
+
+  .product:nth-child(20) {
+    background-color: #ffffff;
   }
 }
